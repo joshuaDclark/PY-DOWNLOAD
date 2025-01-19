@@ -1,0 +1,14 @@
+# Easily download saved TikTok videos
+A simple script I made on the fly yesterday to grab a few saved videos before the US gov removed TikTok
+
+## Requirements
+1. Your machine must be running at least version 3 of Python
+2. The most recent version of yt-dlp package must be installed and can be downloaded [here](https://pypi.org/project/yt-dlp/)
+
+## Steps to Use Script
+1. Clone the PY-DOWNLOAD directory
+2. Downloaded your TikTok data as a JSON file
+3. Create a new JSON file in this directory called `videos.json`
+4. Copy the "Favorite Videos" object from your TikTok data json file and paste into your new videos.json file
+5. If you want to download all the videos run the donwload_script.py or if you want to filter by hashtag run the filter_video_download.py script
+
