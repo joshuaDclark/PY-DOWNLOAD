@@ -10,5 +10,5 @@ A simple script I made on the fly yesterday to grab a few saved videos before th
 2. Downloaded your TikTok data as a JSON file
 3. Create a new JSON file in this directory called `videos.json`
 4. Copy the "Favorite Videos" object from your TikTok data json file and paste into your new videos.json file
-5. If you want to download all the videos run the donwload_script.py or if you want to filter by hashtag run the filter_video_download.py script
+5. If you want to download all the videos run the donwload_script.py or if you want to filter by hashtag run the filter_video_download.py script. Note: If you're running the filter_video_download script, add your hashtag to the target_hashtag variable.
 
